@@ -15,6 +15,20 @@
 		3BC92BB02A5127D4003A4704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BAE2A5127D4003A4704 /* Main.storyboard */; };
 		3BC92BB22A5127D5003A4704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BB12A5127D5003A4704 /* Assets.xcassets */; };
 		3BC92BB52A5127D5003A4704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BB32A5127D5003A4704 /* LaunchScreen.storyboard */; };
+		3BC92BE32A5129A2003A4704 /* pena_dourada.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BD72A5129A2003A4704 /* pena_dourada.atlas */; };
+		3BC92BE42A5129A2003A4704 /* peninha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BD82A5129A2003A4704 /* peninha@2x.png */; };
+		3BC92BE52A5129A2003A4704 /* trueCrimes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BD92A5129A2003A4704 /* trueCrimes.ttf */; };
+		3BC92BE62A5129A2003A4704 /* MUSICA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDA2A5129A2003A4704 /* MUSICA.mp3 */; };
+		3BC92BE72A5129A2003A4704 /* explosao.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDB2A5129A2003A4704 /* explosao.atlas */; };
+		3BC92BE82A5129A2003A4704 /* aviao.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDC2A5129A2003A4704 /* aviao.atlas */; };
+		3BC92BE92A5129A2003A4704 /* estrela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDD2A5129A2003A4704 /* estrela@2x.png */; };
+		3BC92BEA2A5129A2003A4704 /* PLIN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDE2A5129A2003A4704 /* PLIN.mp3 */; };
+		3BC92BEB2A5129A2003A4704 /* QUEBRA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BDF2A5129A2003A4704 /* QUEBRA.mp3 */; };
+		3BC92BEC2A5129A2003A4704 /* lesmo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BE02A5129A2003A4704 /* lesmo.atlas */; };
+		3BC92BED2A5129A2003A4704 /* imagem_fundo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BE12A5129A2003A4704 /* imagem_fundo@2x.png */; };
+		3BC92BEE2A5129A2003A4704 /* bugado.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BC92BE22A5129A2003A4704 /* bugado.atlas */; };
+		3BC92BF32A5137A4003A4704 /* ObjetoAnimado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC92BF22A5137A4003A4704 /* ObjetoAnimado.swift */; };
+		3BC92BF62A53586B003A4704 /* SKAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC92BF52A53586B003A4704 /* SKAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +41,21 @@
 		3BC92BAF2A5127D4003A4704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BC92BB12A5127D5003A4704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC92BB42A5127D5003A4704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BC92BD72A5129A2003A4704 /* pena_dourada.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = pena_dourada.atlas; sourceTree = "<group>"; };
+		3BC92BD82A5129A2003A4704 /* peninha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "peninha@2x.png"; sourceTree = "<group>"; };
+		3BC92BD92A5129A2003A4704 /* trueCrimes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trueCrimes.ttf; sourceTree = "<group>"; };
+		3BC92BDA2A5129A2003A4704 /* MUSICA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MUSICA.mp3; sourceTree = "<group>"; };
+		3BC92BDB2A5129A2003A4704 /* explosao.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = explosao.atlas; sourceTree = "<group>"; };
+		3BC92BDC2A5129A2003A4704 /* aviao.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = aviao.atlas; sourceTree = "<group>"; };
+		3BC92BDD2A5129A2003A4704 /* estrela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estrela@2x.png"; sourceTree = "<group>"; };
+		3BC92BDE2A5129A2003A4704 /* PLIN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PLIN.mp3; sourceTree = "<group>"; };
+		3BC92BDF2A5129A2003A4704 /* QUEBRA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QUEBRA.mp3; sourceTree = "<group>"; };
+		3BC92BE02A5129A2003A4704 /* lesmo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = lesmo.atlas; sourceTree = "<group>"; };
+		3BC92BE12A5129A2003A4704 /* imagem_fundo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem_fundo@2x.png"; sourceTree = "<group>"; };
+		3BC92BE22A5129A2003A4704 /* bugado.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bugado.atlas; sourceTree = "<group>"; };
+		3BC92BF22A5137A4003A4704 /* ObjetoAnimado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjetoAnimado.swift; sourceTree = "<group>"; };
+		3BC92BF42A514224003A4704 /* Jogo-Do-Aviao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Jogo-Do-Aviao-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3BC92BF52A53586B003A4704 /* SKAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +88,39 @@
 		3BC92BA32A5127D4003A4704 /* Jogo Do Aviao */ = {
 			isa = PBXGroup;
 			children = (
+				3BC92BF42A514224003A4704 /* Jogo-Do-Aviao-Info.plist */,
+				3BC92BEF2A5129D4003A4704 /* Graficos e Assets */,
 				3BC92BA42A5127D4003A4704 /* AppDelegate.swift */,
 				3BC92BA62A5127D4003A4704 /* GameScene.sks */,
 				3BC92BA82A5127D4003A4704 /* Actions.sks */,
+				3BC92BF52A53586B003A4704 /* SKAudio.swift */,
 				3BC92BAA2A5127D4003A4704 /* GameScene.swift */,
 				3BC92BAC2A5127D4003A4704 /* GameViewController.swift */,
+				3BC92BF22A5137A4003A4704 /* ObjetoAnimado.swift */,
 				3BC92BAE2A5127D4003A4704 /* Main.storyboard */,
-				3BC92BB12A5127D5003A4704 /* Assets.xcassets */,
 				3BC92BB32A5127D5003A4704 /* LaunchScreen.storyboard */,
 			);
 			path = "Jogo Do Aviao";
+			sourceTree = "<group>";
+		};
+		3BC92BEF2A5129D4003A4704 /* Graficos e Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3BC92BDC2A5129A2003A4704 /* aviao.atlas */,
+				3BC92BE22A5129A2003A4704 /* bugado.atlas */,
+				3BC92BDD2A5129A2003A4704 /* estrela@2x.png */,
+				3BC92BDB2A5129A2003A4704 /* explosao.atlas */,
+				3BC92BE12A5129A2003A4704 /* imagem_fundo@2x.png */,
+				3BC92BE02A5129A2003A4704 /* lesmo.atlas */,
+				3BC92BDA2A5129A2003A4704 /* MUSICA.mp3 */,
+				3BC92BD72A5129A2003A4704 /* pena_dourada.atlas */,
+				3BC92BD82A5129A2003A4704 /* peninha@2x.png */,
+				3BC92BDE2A5129A2003A4704 /* PLIN.mp3 */,
+				3BC92BDF2A5129A2003A4704 /* QUEBRA.mp3 */,
+				3BC92BD92A5129A2003A4704 /* trueCrimes.ttf */,
+				3BC92BB12A5127D5003A4704 /* Assets.xcassets */,
+			);
+			path = "Graficos e Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,11 +181,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC92BEE2A5129A2003A4704 /* bugado.atlas in Resources */,
 				3BC92BB02A5127D4003A4704 /* Main.storyboard in Resources */,
 				3BC92BA72A5127D4003A4704 /* GameScene.sks in Resources */,
+				3BC92BE82A5129A2003A4704 /* aviao.atlas in Resources */,
+				3BC92BE72A5129A2003A4704 /* explosao.atlas in Resources */,
+				3BC92BE62A5129A2003A4704 /* MUSICA.mp3 in Resources */,
+				3BC92BEA2A5129A2003A4704 /* PLIN.mp3 in Resources */,
 				3BC92BB22A5127D5003A4704 /* Assets.xcassets in Resources */,
 				3BC92BB52A5127D5003A4704 /* LaunchScreen.storyboard in Resources */,
+				3BC92BE92A5129A2003A4704 /* estrela@2x.png in Resources */,
+				3BC92BE42A5129A2003A4704 /* peninha@2x.png in Resources */,
+				3BC92BE52A5129A2003A4704 /* trueCrimes.ttf in Resources */,
+				3BC92BED2A5129A2003A4704 /* imagem_fundo@2x.png in Resources */,
+				3BC92BE32A5129A2003A4704 /* pena_dourada.atlas in Resources */,
+				3BC92BEB2A5129A2003A4704 /* QUEBRA.mp3 in Resources */,
 				3BC92BA92A5127D4003A4704 /* Actions.sks in Resources */,
+				3BC92BEC2A5129A2003A4704 /* lesmo.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +210,8 @@
 			files = (
 				3BC92BAB2A5127D4003A4704 /* GameScene.swift in Sources */,
 				3BC92BAD2A5127D4003A4704 /* GameViewController.swift in Sources */,
+				3BC92BF62A53586B003A4704 /* SKAudio.swift in Sources */,
+				3BC92BF32A5137A4003A4704 /* ObjetoAnimado.swift in Sources */,
 				3BC92BA52A5127D4003A4704 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,12 +361,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T46F5AK653;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jogo-Do-Aviao-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +374,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Jogo-Do-Aviao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,12 +392,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T46F5AK653;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jogo-Do-Aviao-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +405,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Jogo-Do-Aviao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
