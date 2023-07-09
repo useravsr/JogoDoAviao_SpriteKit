@@ -196,6 +196,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate { //SKPhysicsContactDelegate 
         self.run(somHit)
         SKAudio.sharedInstance().backgroundMusicPlayer?.volume = 0.1
         
+        self.removeAction(forKey: "gerarInimigos") // Encerrar o loop repeat forever 
+        
         self.run(SKAction.sequence([SKAction.wait(forDuration: 1), SKAction.run {
             self.textoGame.text = "Toque para Reiniciar"
             podeReiniciar = true
@@ -244,7 +246,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate { //SKPhysicsContactDelegate 
                 
                 objetoDummy.speed = 1 // iniciar o fundo
                 
-                self.run(SKAction.repeatForever(SKAction.sequence([sorteiaItens, SKAction.wait(forDuration: 2.0)]))) // controlar fluxo de inimigos
+                self.run(SKAction.repeatForever(SKAction.sequence([sorteiaItens, SKAction.wait(forDuration: 2.0)])), withKey: "gerarInimigos") // controlar fluxo de inimigos
                 
             }
             
